@@ -1,0 +1,36 @@
+html,body{
+    height:100%;
+    width:100%;
+    color: black;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.box{
+    width:500px;
+    height:400px;
+    margin:150px auto;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+.child{
+    height:100%;
+    width:100%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg");
+    background-position: center;
+    background-size: cover;
+    transition:1s;
+}
+.box:hover .child{
+    opacity:0;
+    transform: scale(1.2);
+}
+.box:hover .content{
+    background-color:bisque;
+    transform:scale(1.2);
+    opacity:1;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,38 @@
+html,body{
+    height:100%;
+    width:100%;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height: 100%;
+    width:100%;
+    background-color:#1b1f2f;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.childcontainer{
+    background-color: gold;
+    height:80%;
+    width:80%;
+
+}
+.content{
+    height:80%;
+    width:80%;
+    background-color: #efefef;
+}
+.left{
+    height:100%;
+    width:60%;
+
+}
+.right{
+    height:100%;
+    width:39%;
+}

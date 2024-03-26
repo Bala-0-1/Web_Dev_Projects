@@ -1,0 +1,36 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background-color: #1e1f2f;
+}
+
+.calc{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]{
+    display:block;
+    margin-bottom:4px;
+}
+
+.op{
+    background-color: transparent;
+    display: block;
+    margin-bottom:4px;
+    margin-top:4px;
+}
+
+input[type="button"]{
+    margin-right:4px;
+}
+#res{
+    display: inline-block;
+    min-width:180px;
+    background-color: white;
+}

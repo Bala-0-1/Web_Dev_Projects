@@ -1,0 +1,211 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+
+}
+
+h1,
+p,
+a,
+li {
+  font-family: "Ysabeau SC", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.lander {
+  height: 100%;
+  width: 100%;
+}
+
+.lander-bg li,
+.lander-bg a {
+  font-weight: 1000;
+}
+
+.lander-bg {
+  background-image: url("japan.avif");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lander-bg a {
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  padding: 10px 40px;
+  font-weight: 800px;
+  display: inline-block;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+nav li {
+
+  display: inline-block;
+  padding-top: 25px;
+
+
+}
+
+#left {
+  text-align: left;
+  padding-top: 17px;
+  padding-left: 40px;
+  padding-right: 1000px;
+  font-size: 23px;
+
+}
+
+.content {
+  text-align: center;
+  margin-top: 16%;
+  padding-left: 20px;
+}
+
+.content h1 {
+  font-size: 40px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.content a {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 16px;
+  font-size: 28px;
+}
+
+a:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 16px;
+}
+
+.culture {
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.9);
+
+}
+
+.culture div {
+  display: inline-block;
+  width: 49%;
+  height: 80%;
+  vertical-align: top;
+
+}
+
+.culture div p {
+  width: 60%;
+  background-color: gray;
+
+  text-align: left;
+  font-size: 24px;
+  margin-top: 50%;
+  padding: 60px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.culture div img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-top: 25%;
+  object-fit: cover;
+  object-position: center;
+  padding: 160px 160px;
+}
+
+.culture2 div p {
+  width: 100%;
+  background-color: gray;
+  text-align: left;
+  font-size: 24px;
+  margin-top: 45%;
+  padding: 60px;
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+footer {
+  background-color: black;
+  padding: 30px 0;
+
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact h3,
+.social-media h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact p,
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.email {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.email h1,
+p,
+form {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.email form {
+  padding-bottom: 16px;
+  padding: 20px;
+}
+
+.Abstract {
+  background-image: url("japan3.jpg");
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Abstract h1 {
+  padding-top: 30px;
+  color: black;
+}
+
+.Abstracts {
+  width: 100%;
+  height: 100%;
+}
+
+.Abstracts h1{
+  background-image: url("japan3.jpg");
+  width: 100%;
+  height: 100px;
+}
